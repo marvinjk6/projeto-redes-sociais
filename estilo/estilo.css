@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
 }
 
@@ -44,3 +44,25 @@ iframe#tela {
     height: 471px;
 
 }
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.395);
+    box-sizing: border-box; /* deixa a borda fazendo parte da caixa */
+
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.867);
+    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.586);
+    transition: border .5s;
+}
+
